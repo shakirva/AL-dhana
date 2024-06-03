@@ -1,0 +1,893 @@
+
+.hero-section {
+    height: 72vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-slider {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slider-image.active {
+    opacity: 1;
+}
+
+/* Other existing styles */
+
+.section-2 {
+    padding: 50px 0;
+    position: relative;
+}
+
+.img-fluid-1 {
+    position: relative;
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+.section-2 h2 {
+    position: absolute;
+    top: 10%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5rem; /* Adjust as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a shadow for better readability */
+    text-decoration: underline;
+}
+
+.banner-description {
+    margin-top: 10px;
+    position: absolute;
+    top: 20%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem; /* Adjust as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    
+}
+
+.banner-button {
+    margin-top: 10px;
+    position: absolute;
+    top: 28%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem; /* Adjust as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    border-radius: 50px;
+}
+
+.img-fluid-2{
+    position: relative;
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+    border-radius: 40px;
+    top: -140%;
+    left: 5%;
+
+}
+#vision-btn {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem; /* Adjust as needed */
+    text-decoration:underline;
+}
+#vision{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 1rem; /* Adjust as needed */
+    
+}
+
+#mission-btn {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem; /* Adjust as needed */
+    text-decoration:underline;
+}
+#mission{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 1rem; /* Adjust as needed */
+    
+}
+
+
+
+
+
+
+
+
+.section-3 {
+    margin-top: -15%;
+    background-image: url('Images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg');
+    background-size: cover; /* Adjusts the background image to cover the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Ensures the background image is not repeated */
+    padding-top: 5rem; /* Add some top padding to create space between the background image and the content */
+    padding-bottom: 5rem; /* Add some bottom padding for consistency */
+    
+}
+
+/* Styling container */
+.container {
+    max-width: 1320px; /* Adjust container width as needed */
+    margin: 0 auto;
+    padding: 0 15px; /* Adjust container padding as needed */
+}
+
+/* Styling image-name */
+.image-name {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Styling images */
+.img-fluid {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    
+}
+.images-heading{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+    margin-left: -140px;
+}
+
+.image{
+    margin: 0 auto;
+    margin-top: 170px;
+
+}
+.image-1{
+    margin-left: 200px;
+
+}
+/* Styling paragraphs */
+p {
+    margin-top: 10px;
+}
+
+
+
+
+.image-name {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+.section-4 img {
+    width: 70%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+
+}
+
+.texts{
+    margin-top: -380px;
+    margin-left: 580px;
+    margin-right: 50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    text-align: justify;
+}
+.section-5 {
+    padding: 50px 0;
+}
+
+.img-fluid- {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    padding: 10px;
+    margin:10px;    
+    border: 1px solid blue;
+}
+
+.section-6 {
+      
+    padding: 10px 0;
+    width: 100%;               /* Full width */
+    background-;  
+    background: url('Images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg') no-repeat center center;
+    background-size:100% 60%;
+   
+    background-color: rgb(255, 255, 255);
+  
+}
+
+.sec6-heading{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 180px;
+    margin-left: 500px;
+}
+
+.section-6 .img-fluid {
+    
+    width: 35%;
+    height: 35%;
+    object-fit: cover;
+    border-radius:100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: -70px;
+    border: 1px solid blue;
+ 
+  
+
+}
+
+.section-6 .img-fluid:nth-child(1){
+    margin-left: 100px;
+    top: 158%;
+}
+.section-6 .img-fluid:nth-child(2){
+    margin-left: 200px;
+}
+.section-6 .img-fluid-1:nth-child(3){
+    margin-left: 400px;
+}
+
+
+
+.divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 150px;
+  
+    margin-bottom: 50px;
+    gap: 50px;
+
+}
+
+.content-box{
+  
+    width: 105%;
+    height: 430px;
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 300px;
+    text-align:justify ;
+    padding: 555px;
+    
+    
+
+}
+
+.content-box h2{
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 120px;
+    
+    
+}
+
+.content-box p{
+    color: rgb(0, 0, 0);
+    font-size: .8rem;
+    text-align: justify;
+}
+.section-7 {
+    padding: 50px 0;
+}
+
+.section-7 h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-7 .img-fluid {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+
+
+.section-8 {
+    text-align: center;
+}
+
+.section-8 .testimonial-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scroll-behavior: smooth;
+    width: 100%;
+    padding: 0 10px; /* Adjust as needed */
+    box-sizing: border-box;
+}
+
+.section-8 .testimonial-item {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width and margin as needed */
+    margin-right: 20px; /* Add some spacing between items */
+    background: #ffffff;
+    padding: 70px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    border-radius: 40px; /* Rounded corners */
+    scroll-snap-align: start;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.section-8 .testimonial-content {
+    text-align: center;
+}
+
+.section-8 .stars {
+    color: #ffc107;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.section-8 .name {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.section-8 .testimonial-carousel::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+
+.footer {
+            background-color: #5b4a60;
+            color: white;
+            padding: 40px 0;
+            margin-top: 20px;
+           
+        }
+        .footer .contact-info i {
+            margin-right: 10px;
+        }
+        .footer .quick-links a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer .quick-links a:hover {
+            text-decoration: underline;
+        }
+        .footer .social-icons a {
+            color: rgb(255, 255, 255);
+            margin-right: 15px;
+            font-size: 1.2rem;
+        }
+        .footer .copyright {
+            margin-top: 20px;
+            text-align: center;
+            border-top: 1px solid #6e5b75;
+            padding-top: 20px;
+        }
+        .footer .message-box input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+       
+
+
+        @media only screen and (max-width: 767px) {
+            .hero-section {
+                height: 50vh;
+            }
+        
+            .slider-image {
+                height: auto;
+                object-fit: contain;
+            }
+        
+            .section-2 {
+                padding: 30px 0;
+                margin-top: -30%;
+            }
+        
+            .img-fluid-1 {
+                height: 200%;
+                width: 100%;
+                left: -5%;
+              
+                
+            }
+        
+            .section-2 h2 {
+                font-size: 1.2rem;
+                top: 20%;
+                text-align: center;
+            }
+        
+            .banner-description {
+                font-size: 1rem;
+                top: 50%;
+                text-align: center;
+            }
+        
+            .banner-button {
+                font-size: 1rem;
+                top: 80%;
+                color: black;
+            }
+        
+            #vision-btn {
+                font-size: 0.8rem;
+                top: 105%;
+                left: 45%;
+            }
+
+            #mission-btn {
+                font-size: 0.8rem;
+                top: 105%;
+                left: 25%;
+            }
+        
+            #vision, #mission {
+                font-size: 0.9rem;
+                top: 125%;
+                left: 45%;
+
+            }
+        
+            .img-fluid-2 {
+              
+                top: 125%;
+                height: 110%;
+                padding: 0% ;
+                border-radius: 0px;
+                left: 1%;
+                width: 100%;
+                
+                
+
+        
+               
+               
+              
+
+                
+            }
+        
+            .section-3 {
+                margin-top: 80%;
+                border-radius: 60px 60px 0 0;
+                padding: 5%;
+            }
+        
+            .container {
+                padding: 0 40px;
+                
+            }
+        
+            .image-name {
+                margin-bottom: 20px;
+            }
+        
+            .img-fluid {
+                height: 170px;
+                
+            }
+        
+            .images-heading {
+                font-size: 1.5rem;
+                top:143%;
+                left:38%;
+                color:black;
+            }
+        
+            .image {
+                margin-top: 10%;
+            }
+        
+            .image-1 {
+                margin-left: 0%;
+                margin-top: 10%;
+            }
+        
+            .texts {
+                margin-top: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: center;
+            }
+        
+            .section-4 img {
+                width: 100%;
+                height: auto;
+                margin-top: 20px;
+            }
+
+            .section-4 p {
+                font-size: 0.8rem;
+                text-align: justify;
+            }
+        
+            .section-5 {
+                padding: 30px 0;
+            }
+        
+            .img-fluid- {
+                height: 100px;
+            }
+
+            .section-6 {
+                padding: 20px 0;
+                background-size: cover;
+                background-size: 70%;
+            }
+            .section-6 .carousel-1{
+                display: flex;
+                overflow-x:scroll;
+                scroll-snap-type: x mandatory;
+                -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+                scroll-behavior: smooth;
+                width: 100%;
+                padding: 0 0px; /* Adjust as needed */
+                box-sizing: border-box;
+                height: 80%;
+                margin: 0%;
+                
+                
+            }
+
+            .section-6  .content-box {
+                flex: 0 0 calc(100% - 20px); /* Adjust the width and margin as needed */
+                margin-right: 20px; /* Add some spacing between items */
+                background: #ffffff;
+                padding: 10px;
+                box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+                box-sizing: border-box;
+                border-radius: 40px; /* Rounded corners */
+                scroll-snap-align: start;
+                height: 300px;
+                margin-top: 80px;
+                width: 300px;
+            }
+
+            .section-6 .content-box p {
+                font-size: .5rem;
+                text-align: center;
+                margin-top: 20px;
+    
+
+
+    
+
+                
+            }
+
+           
+            .section-6 {
+                padding: 20px 0;
+                background-size: cover;
+            }
+        
+            .sec6-heading {
+                font-size: 1.5rem;
+                margin-left: 90px;
+                margin-top: -20px;
+            }
+        
+            .section-6 .img-fluid {
+                width: 30%;
+                height: auto;
+                margin-top: -20%;
+                left: auto;
+                
+            }
+        
+           
+        
+            .content-box h2 {
+                margin-top: 20px;
+            }
+        
+            .content-box p {
+                font-size: 0.9rem;
+            }
+
+            .section-8 .carousel-1::-webkit-scrollbar {
+                display: none; }
+        
+            .section-7 {
+                padding: 30px 0;
+            }
+        
+            .section-7 h2 {
+                font-size: 1.5rem;
+            }
+        
+            .section-7 .img-fluid {
+                height: 200px;
+            }
+        
+            .section-8 {
+                padding: 10px 0;
+            }
+        
+            .testimonial-carousel {
+                padding: 0 5px;
+            }
+        
+             .section-8 .testimonial-item {
+                flex: 0 0 calc(100% - 20px);
+                margin-right: 30px;
+                padding: 10%;
+                
+                
+            }
+            .section-8 .testimonial-content {
+                text-align: center;
+               
+                
+            }
+
+           
+        
+            .footer {
+                padding: 20px 0;
+            }
+        
+            .footer .contact-info i {
+                margin-right: 5px;
+            }
+        
+            .footer .quick-links a {
+                font-size: 0.9rem;
+            }
+        
+            .footer .social-icons a {
+                font-size: 1rem;
+            }
+        
+            .footer .copyright {
+                font-size: 0.8rem;
+            }
+        
+            .footer .message-box input {
+                padding: 5px;
+            }
+        }
+
+        
+        @media only screen and (max-width: 991px) and (min-width: 768px) {
+            .hero-section {
+                height: 60vh;
+            }
+        
+            .slider-image {
+                height: 100%;
+                object-fit: cover;
+            }
+        
+            .section-2 {
+                padding: 40px 0;
+            }
+        
+            .img-fluid-1 {
+                height: auto;
+            }
+        
+            .section-2 h2 {
+                font-size: 2rem;
+                top: 10%;
+            }
+        
+            .banner-description {
+                font-size: 1.2rem;
+                top: 20%;
+            }
+        
+            .banner-button {
+                font-size: 1.2rem;
+                top: 30%;
+            }
+        
+            #vision-btn, #mission-btn {
+                font-size: 1.2rem;
+                top: 45%;
+                left: 45%;
+            }
+        
+            #vision, #mission {
+                font-size: 0.9rem;
+                top: 50%;
+                left: 50%;
+            }
+        
+            .img-fluid-2 {
+                top: -120%;
+                left: 10%;
+            }
+        
+            .section-3 {
+                margin-top: -12%;
+            }
+        
+            .container {
+                padding: 0 20px;
+            }
+        
+            .image-name {
+                margin-bottom: 30px;
+            }
+        
+            .img-fluid {
+                height: 250px;
+            }
+        
+            .images-heading {
+                font-size: 2.5rem;
+            }
+        
+            .image {
+                margin-top: 120px;
+            }
+        
+            .image-1 {
+                margin-left: 150px;
+            }
+        
+            .texts {
+                margin-top: -200px;
+                margin-left: 30px;
+                margin-right: 30px;
+                text-align: center;
+            }
+        
+            .section-4 img {
+                width: 80%;
+                height: auto;
+                margin-top: 30px;
+            }
+        
+            .section-5 {
+                padding: 40px 0;
+            }
+        
+            .img-fluid- {
+                height: 120px;
+            }
+            
+            .section-6 {
+                padding: 30px 0;
+                background-size: cover;
+            }
+        
+            .sec6-heading {
+                font-size: 2rem;
+                margin-left: 0;
+                margin-top: 30px;
+            }
+        
+            .section-6 .img-fluid {
+                width: 40%;
+                height: auto;
+                margin-top: 20px;
+                left: auto;
+            }
+        
+            .content-box {
+                width: 90%;
+                height: auto;
+                padding: 40px;
+                margin-top: 40px;
+            }
+        
+            .content-box h2 {
+                margin-top: 40px;
+            }
+        
+            .content-box p {
+                font-size: 1rem;
+            }
+        
+            .section-7 {
+                padding: 40px 0;
+            }
+        
+            .section-7 h2 {
+                font-size: 2rem;
+            }
+        
+            .section-7 .img-fluid {
+                height: 250px;
+            }
+        
+            .section-8 {
+                padding: 30px 0;
+            }
+        
+            .testimonial-carousel {
+                padding: 0 10px;
+            }
+        
+            .testimonial-item {
+                flex: 0 0 calc(100% - 20%);
+                margin-right: 15px;
+                height: 80%;
+                margin: 200%;
+            }
+        
+            .footer {
+                padding: 30px 0;
+            }
+        
+            .footer .contact-info i {
+                margin-right: 7px;
+            }
+        
+            .footer .quick-links a {
+                font-size: 1rem;
+            }
+        
+            .footer .social-icons a {
+                font-size: 1.1rem;
+            }
+        
+            .footer .copyright {
+                font-size: 0.9rem;
+            }
+        
+            .footer .message-box input {
+                padding: 7px;
+            }
+        }
+        
